@@ -1,0 +1,182 @@
+body
+{
+    margin: 0;
+    padding:0;
+    background-color:#004042;
+}
+
+/*flower*/
+
+#About
+{
+ height: 700px;
+}
+
+#About p
+{
+    color: aqua;
+    text-align: center;
+    margin: 0;
+    padding-left: 40%;
+    font-size: 22px;
+    animation: colors 1s linear infinite alternate;
+}
+
+@keyframes colors
+{
+    0%
+    {
+        color: aquamarine;
+    }
+    75%
+    {
+        color: yellow;
+    }
+    100%
+    {
+        color: deeppink
+    }
+}
+
+h1
+{
+    margin: 0;
+    padding: 0;
+	text-align: center;
+    color: #e5dedf;
+    font-size: 53px;
+    font-family: 'Lobster', cursive;	
+}
+
+h3
+{
+	text-align:center;
+	color:#fff;
+	transform:rotate(25deg);
+	padding-top:16.5%;
+    font-family: 'Pacifico', cursive;
+	overflow:hidden;
+	
+}
+
+
+
+#About .img-circle
+{
+	background-image: url("dodo.jpg");
+	background-size:cover;
+	width: 391px;
+    height: 383px;
+    position: absolute;
+   top: 24.5%;
+    left: 36%;
+    border-radius: 50%;
+	border:rgba(255,241,0,1.00) solid thick;
+	transform:rotate(20deg);
+	cursor:pointer;
+    transition: 2s;
+
+}
+
+
+
+ .Branches
+{
+	width:20%;
+	height:30%;
+	background-color:#ff6b88;
+	border:thick rgba(255,241,0,1.00) solid;
+	border-top-right-radius:80%;
+	border-bottom-left-radius:80%;
+	cursor:pointer;
+	transition-duration:2s;
+	transition-delay:.5s;
+}
+
+.p1
+{
+	
+	position:absolute;
+	top:17%;
+	left:16%;
+	transform:rotate(-15deg);
+	
+}
+
+
+.p2
+{
+
+	position:absolute;
+	top:40%;
+	left:15.5%;
+	transform:rotate(-40deg);
+	
+}
+
+.p3
+{
+	
+	position:absolute;
+	top:60%;
+	left:18%;
+	transform:rotate(120deg);
+}
+
+.p3 h3
+{
+    transform:rotate(-150deg);
+        margin-top: 50px;
+}
+
+.p5
+{
+	width:20%;
+	height:30%;
+	background-color:#ff6b88;
+	border:thick rgba(255,241,0,1.00) solid;
+	border-top-left-radius:80%;
+	border-bottom-right-radius:80%;
+	position:absolute;
+	top:19%;
+	left:63.7%;
+	transform:rotate(15deg);
+	transition-duration:2s;
+	transition-delay:.5s;
+	cursor:pointer;
+	
+	
+}
+
+.p5 h3
+{
+        transform: rotate(-35deg);
+    margin-top: 73px;
+    padding: 0;
+}
+
+.p6
+{
+	position:absolute;
+	top:39%;
+	left:66%;
+	transform:rotate(146deg);
+	
+	
+}
+.p6 h3
+{
+    transform:rotate(200deg);
+        margin-top: 50px;
+}
+
+.p7
+{
+	position:absolute;
+	top:61%;
+	left:63.5%;
+	transform:rotate(-12deg);
+	
+	
+}
+
